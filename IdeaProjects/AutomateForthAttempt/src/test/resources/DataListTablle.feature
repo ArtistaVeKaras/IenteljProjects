@@ -1,0 +1,1 @@
+Feature: As user I  want to be able to log in  using my username and password and  confirm the home page#  @TestCompleted  Scenario: Login    Given I am Home Page    When I eanter my Username and Password details as below      | montego001 | 12345678 |    And  I click on the login button    Then  homePage should be dislpayed
